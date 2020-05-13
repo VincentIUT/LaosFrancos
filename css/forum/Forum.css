@@ -1,0 +1,96 @@
+*{
+	text-decoration: none;
+}
+
+h1{
+	text-align : center;
+	margin-top : 5%;
+	margin-bottom : 2%;
+	
+}
+
+@font-face{
+	font-family : 'Vidaloka';
+	src : url('../../font/Vidaloka-Regular.ttf') format('truetype');
+}
+
+body {
+	background-color: #efefef;
+	font-family : 'Vidaloka', Arial;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+/*BARRE DE RECHERCHE */
+
+#searchbar
+{
+    position:relative;
+    width:1040px;
+    height:auto;
+    display:inline-block;
+	margin-left : 100px;
+	margin-bottom : 2%;
+}
+#searchbar .text
+{
+    width:300px;
+    float:left;    
+}
+#searchbar .champ
+{
+    width:600px;
+    height:35px;
+    float:left;
+	font-size : 20px;
+}
+#searchbar .bouton
+{
+    width: 35px;
+    height: 40px;
+    padding: 0;
+	color : rgba(110,110,255,1);
+    border:none;
+    float:left;
+	background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+	background-position: right center;
+}
+
+
+/* TABLEAUX DU FORUM */
+
+.forum-category {
+    padding: 20px 20px 80px 20px;
+	border : solid black 0.5px;
+    border-radius: 6px 6px 6px 6px;
+	margin : 20px 100px 20px 100px;
+	height : 10px;
+}
+.forum-table-container {
+	border : solid black 1px;
+	border-radius: 6px 6px 6px 6px;
+	padding: 20px 20px 20px 20px;
+	margin : 20px 100px 60px 100px;
+	
+}
+.text-muted
+{
+	
+}
+.message-tourisme
+{
+	width : 240px;
+	margin-left : 3px;
+}
+
+
+.list-unstyled {
+	
+	float : right;
+	margin-left : 400px;
+	margin-top : 30px;
+	width : 150px;
+	border : solid black 1px;
+	text-align : center;
+	
+}

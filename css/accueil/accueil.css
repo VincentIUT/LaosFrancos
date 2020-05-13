@@ -1,0 +1,88 @@
+#PageCentre {
+	display:inline-block;
+	width:80%;
+	text-align : center;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+#imgAc {
+	width: 100%;
+}
+
+.lali {
+	text-align: justify;
+}
+
+.Bloc {
+	background-color:rgba(253,253,255, 1);
+	text-align:justify;
+	vertical-align: top;
+	border-radius: 50px;
+	/* border : 1px solid rgba(000,206,209, 1); */
+	border : 1px solid rgba(255, 153, 51, 1);
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	width: 45%;
+}
+
+.Bloc h3 {
+	text-align: center;
+	padding-bottom: 20px;
+	/* border-bottom: 3px solid rgba(0,200,255,1); */
+	border-bottom: 3px solid rgba(255, 153, 51, 1);
+}
+
+.Bloc a {
+	text-decoration: none;
+	/* color: rgba(0,200,255,1); */
+	color: rgba(255, 153, 51, 1);
+}
+
+.paraimg {
+	width: 100px;
+	height: 100px;
+}
+
+#sep {
+	margin: 40px 0px 40px 0px;
+	border:1px solid rgba(0, 206, 209, 0.3);
+}
+
+#Titre {
+	padding-top: 3%;
+}
+
+.Main {
+	border-collapse: collapse;
+	width:80%;
+	display: inline-block;
+}
+
+.Main td {
+	border: 2px dashed rgba(0, 206, 209, 0.3);
+	vertical-align:top;
+	width: 20%;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+.Main td:hover {
+	background-color: rgba(200,200,255, 0.1);
+}
+
+.paragraphe {
+	position:relative;
+	border-style:solid;
+	/* border-color:rgba(000,206,209, 1); */
+	border-color: rgba(255, 153, 51, 1);
+	border-top-left-radius:15px;
+	border-width:2px;
+	border-bottom-right-radius:30px
+}
+
+.colored {
+	/* color: rgba(000,206,209, 1); */
+	color: rgba(255, 153, 51, 1);
+}

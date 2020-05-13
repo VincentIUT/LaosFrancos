@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Katia">
+		<link rel="icon" href="images/icone.ico" />
+		<title>Association amité Franco-Laotienne</title>
+		<link rel="stylesheet" type="text/css" href="css/commun/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/commun/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/commun/miseEnPageCommun.css">
+		<link rel="stylesheet" type="text/css" href="css/benevolat/benevolat.css">
+	</head>
+
+	<body>
+		<span id="home"></span>
+		<ul id="Menu">
+			<a href="Accueil.html"><li id="Logo"><img src="images/icone.png" height="32" width="32" alt="Image de colombe, icone du site"></li></a>
+			<li><a href="Accueil.html">Accueil</a></li>
+			<li><a href="Infos.html">Informations</a></li>
+			<li><a href="Forum.html">Forum</a></li>
+			<li><a href="Cours.html">Cours</a></li>
+			<li><a href="Evenements.html">Evénements</a></li>
+			<li><a href="Cafe.html">Café culturel</a></li>
+			<li><a href="#home">Bénévolat</a></li>
+			<li style="float:right" id="CaseContact"><a href="#Contact" >Contact</a></li>
+		</ul>
+		
+		<h1 id="Titre" >
+			Bénévolat & renseignements
+		</h1>
+		
+		<div id="PageCentre">
+		
+			<img id="topimg" width="100%" src="images/bene1.jpg" alt="Image de mains empillées">
+			
+			<br>
+			<div id="txtdon">
+				<p>
+					<h3>Faire un don</h3>
+					<div id="lali">
+						L'association d'Amitié Franco-Laotienne a comme projet de bâtir au Laos
+						un centre d'apprentissage du français. En effet, ce centre vise la jeunesse
+						du Laos en besoin, pour les aider à s'ouvrir au monde, particulièrement
+						à la France pour aider la coopération des deux pays.
+						<br>
+						Vous pouvez aussi aider les causes <a href="#liens">ci-dessous</a> qui vont dans le même
+						sens que notre association. Vous y trouverez aussi des liens utiles pour
+						quiconque s'intéresse au Laos.
+					</div>
+				</p>
+			</div>
+			<br>
+			<form action="" method="post">
+				<table id="tab">
+					<tr>
+						<td>
+							Nom:
+						</td>
+						<td>
+							<label>
+								<input type="text" name="nom" autocomplete placeholder="Nom" required>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Prenom:
+						</td>
+						<td>
+							<label>
+								<input type="text" name="prenom" autocomplete placeholder="Prenom" required>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Email:
+						</td>
+						<td>
+							<label>
+								<input type="mail" name="email" autocomplete placeholder="votre@mail.fr" required>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+							Particulier <input type="radio" name="typ" required>
+							</label>
+						</td>
+						<td>
+							<label>
+								 Entreprise <input type="radio" name="typ">
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Montant:
+						</td>
+						<td>
+							<label>
+								<input type="number" name="montant" min="1" autocomplete placeholder="5" required>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								Don ponctuel <input type="radio" name="typdon" required>
+							</label>
+						</td>
+						<td>
+							<label>
+								 Don mensuel <input type="radio" name="typdon">
+							</label>
+						</td>
+					</tr>
+				</table>
+				
+				<input type="submit" value="Faire une donation">
+			</form>
+			
+			<table id ="liens" class="Main">
+				<th><p>Lien</p></th><th><p>Description</p></th>
+				<tr>
+					<td><p><a href="https://www.geo.fr/destinations/laos" target="_blank">GEO Laos</a></p></td>
+					<td>
+						<p class="desc">
+						Des informations en tout genre sur le Laos, vous en apprendrez beaucoup sur le pays et la culture locale.
+						</p>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><p><a href="https://www.helloasso.com/associations/enfants-du-laos" target="_blank">Enfants du Laos</a></td>
+					<td><p class="desc">
+							Le but de cette association est de construire une école d'infomatique au Laos.
+						    Si vous avez les moyens un don sera très bien reçu.</p></td>
+				</tr>
+				
+				<tr>
+					<td><p><a href="http://www.mdaroubaix.org/annuaire-associations-roubaix/action-sociale/socioculturelle-lao-du-nord.html" target="_blank">Association Socioculturelle Laos du Nord</a></p></td>
+					<td><p class="desc">
+						Cette association va dans le même sens que la nôtre mais pour la communauté laotienne du nord de la France. 
+					</p></td>
+					
+				</tr>
+				
+				<tr>
+					<td><p><a href="https://preslesartculture.pagesperso-orange.fr/cooperationfranc/index.html" target="_blank">Coopération francophone au Laos</a></p></td>
+					<td><p class="desc">
+					Cette association permet un rapprochement humanitaire auprès de nos amis laotiens.
+					</p></td>
+					
+				</tr>
+				
+				<tr>
+					<td><p><a href="https://metropole.rennes.fr/organisme/association-amis-france-laos-5045" target="_blank">Association amis France-Laos</a></p></td>
+					<td><p class="desc">
+					Cette association rassemble les membres de la communauté laotienne et les amis français qui s'intéressent au Laos.
+					</p></td>
+				
+				</tr>
+				
+				<tr>
+					<td><p><a href="http://www.laofr.net/" target="_blank">laofr</a></p></td>
+					<td><p class="desc">
+					Site communautaire laotien en France. On peut y partager des vidéos, images, articles.
+					</p></td>
+					
+				</tr>
+				
+				<tr>
+					<td><p><a href="https://aflapa13.wixsite.com/aflapa" target="_blank">A.F.L.A.P.A.</a></p></td>
+					<td><p class="desc">
+					L'AFLAPA se charge de créer un lien entre des bénévoles en France et le centre Home
+					of Light au Laos qui héberge une cinquantaine d'enfants.
+					</p></td>
+					
+				</tr>
+				
+				<tr>
+					<td><p><a href="https://www.gralon.net/mairies-france/rhone/association-amitie-cooperation-franco-laotienne-acfl-et-developpement-durable-ecully_W073000110.htm" target="_blank">A.C.F.L.</a></p></td>
+					<td><p class="desc">
+					Apporter son aide aux Laotiens dans le cadre d'une coopération soutenue et progressive, 
+					principalement dans les domaines médical et éducatif.
+					</p></td>
+			
+				</tr>
+			</table>
+		</div>
+
+		<div class="footer">
+			<h4>
+				Nous contacter:
+			</h4>
+			<div class="contactblock">
+				<p>
+					Adresse: 14 Rue Vavin, 75006 Paris
+				</p>
+				
+				<p>
+					Numéro de téléphone: 01 39 65 90 71
+				</p>
+				
+				<p>
+						Email: <a href="mailto:cafe.culturel@laosfrancos.fr" id="Contact">
+							cafe.culturel@laosfrancos.fr
+							   </a>
+				</p>
+			
+				<a class="imgReaseaux" href="http://twitter.com/LaosFrancos" target="_blank">
+					<img src="images/twitter.png" alt="Image de Twitter">
+				</a>
+				<a class="imgReaseaux" href="http://facebook.com" target="_blank">
+					<img src="images/facebook.png" alt="Image de Facebook">
+				</a>
+				<a class="imgReaseaux" href="http://instagram.com" target="_blank">
+					<img src="images/instabw.png" alt="Image de Instagram">
+				</a>
+			</div>
+			<div class="contactblock">
+				Horaires d'ouverture:
+				<table>
+					<tr>
+						<td>Lundi</td>
+						<td>Fermé</td>
+					</tr>
+					<tr>
+						<td>Mardi</td>
+						<td>Fermé</td>
+					</tr>
+					<tr>
+						<td>Mercredi</td>
+						<td>7:00-22:00</td>
+					</tr>
+					<tr>
+						<td>Jeudi</td>
+						<td>7:00-22:00</td>
+					</tr>
+					<tr>
+						<td>Vendredi</td>
+						<td>7:00-00:00</td>
+					</tr>
+					<tr>
+						<td>Samedi</td>
+						<td>15:00-00:00</td>
+					</tr>
+					<tr>
+						<td>Dimanche</td>
+						<td>15:00-22:00</td>
+					</tr>
+				</table>
+			</div>
+			<a href="https://goo.gl/maps/iATS4TMvoYBQVibT9" target="_blank"><img id="map" src="images/map.png" alt="Plan pour aller au café"></a>
+		</div>
+	</body>
+</html>

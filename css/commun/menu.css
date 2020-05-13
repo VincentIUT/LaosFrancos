@@ -1,0 +1,48 @@
+#Logo {
+	opacity: 1;
+	display: inline-block;
+	color: black;
+	padding-top: 10px;
+	padding-right: 10px;
+	margin: 0px;
+}
+
+#Logo:hover {
+	opacity: 0.5;
+}
+
+#Menu {
+	list-style-type: none;
+	position: fixed;
+	left: 0px;
+	top: -20px;
+	width: 100%;
+	/* background-color: rgba(000,206,209, 1); */
+	background-color: rgba(255, 153, 51, 1);
+	/* box-shadow: 5px 0px 5px rgba(110,110,255,1); */
+	box-shadow: 5px 0px 5px rgba(255, 110, 100, 1);
+	padding-right:5%;
+}
+
+#CaseContact {
+	padding-right:5%;
+}
+
+#Menu li {
+  float: left;
+}
+
+#Menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#Menu li a:hover {
+  /* background-color: rgba(34,239,243, 1); */
+  background-color: rgba(255,200,100, 1);
+  /* box-shadow: 0px 0px 15px rgba(34,239,243, 1); */
+  box-shadow: 0px 0px 15px rgba(255,200,100, 1);
+}

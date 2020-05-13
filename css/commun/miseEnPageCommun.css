@@ -1,0 +1,11 @@
+@font-face{
+	font-family : 'Vidaloka';
+	src : url('../../font/Vidaloka-Regular.ttf') format('truetype');
+}
+
+body {
+	text-align: center;
+	background-color: #efefef;
+	font-family : 'Vidaloka';
+	font-size: 20px;
+}

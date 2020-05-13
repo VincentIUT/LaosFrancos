@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Jean">
+		<title>Association amité Franco-Laotienne</title>
+		<link rel="icon" href="images/icone.ico" />
+		<link rel="stylesheet" type="text/css" href="css/commun/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/commun/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/commun/miseEnPageCommun.css">
+		<link rel="stylesheet" type="text/css" href="css/cours/cours.css">
+	</head>
+
+	<body>
+	<span id="home"></span>
+		<ul id="Menu">
+			<a href="Accueil.html"><li id="Logo"><img src="images/icone.png" height="32" width="32" alt="Image de colombe, icone du site"></li></a>
+			<li><a href="Accueil.html">Accueil</a></li>
+			<li><a href="Infos.html">Informations</a></li>
+			<li><a href="Forum.html">Forum</a></li>
+			<li><a href="#home">Cours</a></li>
+			<li><a href="Evenements.html">Evénements</a></li>
+			<li><a href="Cafe.html">Café culturel</a></li>
+			<li><a href="Benevolat.html">Bénévolat</a></li>
+			<li style="float:right" id="CaseContact"><a href="#Contact" >Contact</a></li>
+		</ul>
+		
+		<h1 id="Titre" >
+			Cours de langue LAOS - FRANCAIS
+		</h1>
+		
+		<table class="Main">
+			<tbody>
+				<tr>
+					<td><br><img class="paraimg" src="images/enseignemt.png" alt="Image de livre ouvert">
+						<p class="paragraphe"><h3>Enseignants</h3><br>
+							<div class="lali">
+								L'équipe d'enseignement est constituée de professeurs d'université ou
+								de personnes issues du Laos.
+								<br>
+								Il n'y a pas de niveau nécessaire pour participer aux cours,
+								la prise en charge est personnalisée et le suivi est étroitement
+								lié à votre progression.<br>
+								Nous prendrons le temps de nous occuper 
+								de vous si vous en avez la motivation.
+							</div>
+						</p>
+					</td>
+					<td><br><img class="paraimg" src="images/meth.png" alt="Image de feuille et stylo">
+						<p class="paragraphe"><h3>Méthode d'apprentissage</h3><br>
+							<div class="lali">
+								Quand vous vous inscrivez nous gardons vos coordonnées et créons un
+								dossier de suivi de votre niveau. Le suivi est effectué à l'aide de jalons
+								pour des notions clés de la langue, et lorsque vous maîtrisez un certain nombre
+								de ces jalons nous vous proposons de passer une épreuve de certification adaptée
+								à vos compétences.
+								<br>
+								Il y a peu de professeurs, nous sommes donc très proches de vous pour vous
+								accompagner pas à pas jusqu'à vos objectifs.
+							</div>
+						</p>
+					</td>
+					<td><br><img class="paraimg" src="images/graduhat.png" alt="Image de cible">
+						<p class="paragraphe" ><h3>Les résultats</h3><br>
+							<div class="lali">
+								Les résultats sont très disparates et dépendent des facilités et de
+								l'investissement de chacun, cependant si vous venez régulièrement et vous vous intéressez
+								à ce que l'on vous propose, vous progresserez rapidement, et serez même capables de tenir
+								une petite discussion <em>en moins d'un an </em>!
+							</div>
+						</p>
+					</td>
+					<td><br><img class="paraimg" src="images/price.png" alt="Image de cible">
+						<p class="paragraphe" ><h3>Tarifs</h3><br>
+							<div class="lali">
+								Nous proposons trois tarifs en fonction des tranches d'âge:
+								<br>
+								<br>
+								<div class="centertab">
+									<table id="tarifs">
+										<th>Âge</th><th>Prix</th>
+										<tr><td>10 - 18</td><td>10€</td></tr>
+										<tr><td>19 - 60</td><td>15€</td></tr>
+										<tr><td>61 - +</td><td>20€</td></tr>
+									</table>
+								</div>
+								Les prix indiqués sont par séance, toutes les cinq séances vous avez
+								une séance offerte. Remplissez le <a href="#formulaire">formulaire</a>
+								si vous êtes intéréssé !
+							</div>
+						</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<br>
+		<h3>
+			Formulaire d'inscription:
+		</h3>
+		
+		<form id="formulaire" action="Cours.html" method="post">
+			<table id="tab">
+				<tr>
+					<td>
+						Civilité<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label for="sexe">
+							<select id="sexe">
+								<option name="">- - -</option>
+								<option name="Mr">M.</option>
+								<option name="Mme">Mme</option>
+							</select>
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Nom<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label>
+							<input type="text" name="Nom" autocomplete required placeholder="Dupont">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Prénom<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label>
+							<input type="text" name="Prenom" autocomplete required placeholder="Julien">
+						</label>
+					</td>
+				</tr>
+			
+				<tr>
+					<td>
+						Adresse Mail<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label>
+							<input type="mail" name="Mail" autocomplete required placeholder="julien@dupont.fr">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Confirmer Mail<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label>
+							<input type="mail" name="Mail2" required placeholder="julien@dupont.fr">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Mot de passe<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label>
+							<input type="password" name="pwd" required maxlength="26" minlength="8" placeholder="********">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Confirmer mdp<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label>
+							<input type="password" name="pwd2" required  minlength="8" maxlength="26" placeholder="********">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Age<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label>
+							<input type="number" name="Age" min="0" autocomplete required placeholder="22">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Téléphone:
+					</td>
+					<td>
+						<label>
+							<input type="tel" name="Tel" autocomplete placeholder="3630">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Adresse:
+					</td>
+					<td>
+						<label>
+							<input type="text" name="Adresse" autocomplete placeholder="14 Rue Vavin">
+						</label>
+					</td>
+				</tr>
+			
+				<tr>
+					<td>
+						Code Postal:
+					</td>
+					<td>
+						<label>
+							<input type="number" name="CodePostal" autocomplete placeholder="75006">
+						</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Ville:
+					</td>
+					<td>
+						<label>
+							<input type="text" name="Ville" autocomplete placeholder="Paris">
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Choisir une langue<span class="redstar">*</span>:
+					</td>
+					<td>
+						<label for="langue">
+							<p>
+								<select name="Langue" id="langue" required>
+									<option value="">- - -</option>
+									<option value="Laotien">Laotien</option>
+									<option value="Français">Français</option>
+								</select>
+							</p>
+						</td>
+					</label>
+				</tr>
+			</table>
+			
+			<label>
+				<p>
+					<input type="checkbox" name="Conditions" required>
+					Acceptez les conditions d'utilisation<span class="redstar">*</span>
+				</p>
+			</label>
+			<span id="petit" class="redstar">Les champs avec * sont requis</span>
+			<br>
+			<input type="submit" value="S'inscrire">
+		</form>
+		
+		<div class="footer">
+			<h4>
+				Nous contacter:
+			</h4>
+			<div class="contactblock">
+				<p>
+					Adresse: 14 Rue Vavin, 75006 Paris
+				</p>
+				
+				<p>
+					Numéro de téléphone: 01 39 65 90 71
+				</p>
+				
+				<p>
+						Email: <a href="mailto:cafe.culturel@laosfrancos.fr" id="Contact">
+							cafe.culturel@laosfrancos.fr
+							   </a>
+				</p>
+			
+				<a class="imgReaseaux" href="http://twitter.com/LaosFrancos" target="_blank">
+					<img src="images/twitter.png" alt="Image de Twitter">
+				</a>
+				<a class="imgReaseaux" href="http://facebook.com" target="_blank">
+					<img src="images/facebook.png" alt="Image de Facebook">
+				</a>
+				<a class="imgReaseaux" href="http://instagram.com" target="_blank">
+					<img src="images/instabw.png" alt="Image de Instagram">
+				</a>
+			</div>
+			<div class="contactblock">
+				Horaires d'ouverture:
+				<table>
+					<tr>
+						<td>Lundi</td>
+						<td>Fermé</td>
+					</tr>
+					<tr>
+						<td>Mardi</td>
+						<td>Fermé</td>
+					</tr>
+					<tr>
+						<td>Mercredi</td>
+						<td>7:00-22:00</td>
+					</tr>
+					<tr>
+						<td>Jeudi</td>
+						<td>7:00-22:00</td>
+					</tr>
+					<tr>
+						<td>Vendredi</td>
+						<td>7:00-00:00</td>
+					</tr>
+					<tr>
+						<td>Samedi</td>
+						<td>15:00-00:00</td>
+					</tr>
+					<tr>
+						<td>Dimanche</td>
+						<td>15:00-22:00</td>
+					</tr>
+				</table>
+			</div>
+			<a href="https://goo.gl/maps/iATS4TMvoYBQVibT9" target="_blank"><img id="map" src="images/map.png" alt="Plan pour aller au café"></a>
+		</div>
+	</body>
+</html>

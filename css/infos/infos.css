@@ -1,0 +1,60 @@
+#PageCentre {
+	display:inline-block;
+	width:80%;
+	text-align : center;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+#imgAc {
+	width: 100%;
+}
+
+.lali {
+	text-align: justify;
+}
+
+.Bloc {
+	background-color:rgba(253,253,255, 1);
+	text-align:justify;
+	vertical-align: top;
+	border-radius: 50px;
+	/* border : 1px solid rgba(000,206,209, 1); */
+	border : 1px solid rgba(255, 153, 51, 1);
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	width: 45%;
+}
+
+.Bloc h3 {
+	text-align: center;
+	padding-bottom: 20px;
+	/* border-bottom: 3px solid rgba(0,200,255,1); */
+	border-bottom: 3px solid rgba(255, 153, 51, 1);
+}
+
+.Bloc a {
+	text-decoration: none;
+	/* color: rgba(0,200,255,1); */
+	color: rgba(255, 153, 51, 1);
+}
+
+.paraimg {
+	width: 100px;
+	height: 100px;
+}
+
+.circle {
+	width:250px;
+	height:250px;
+	float: left;
+	border-radius: 50%;
+	padding-right: 30px;
+	shape-outside: circle();
+}
+
+
+#Titre {
+	padding-top: 3%;
+}

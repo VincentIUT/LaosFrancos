@@ -1,0 +1,49 @@
+.footer {
+	font-size: 15px;
+	border-top: 1px solid black;
+	display: block;
+	width: 100%;
+	color: black;
+	text-align: center;
+	/* background-color: rgba(000,206,209, 1); */
+	background-color: rgba(255, 153, 51, 1);
+}
+
+#map {
+	margin-left: 100px;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+#map:hover {
+	height: 400px;
+	width: 400px;
+}
+
+.imgReaseaux {
+	margin: 5px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.imgReaseaux img {
+	width: 32px;
+	height: 32px;
+	opacity: 1;
+}
+
+.imgReaseaux img:hover {
+	opacity: 0.5;
+}
+
+.contactblock {
+	margin-left:100px;
+	vertical-align: top;
+	display: inline-block;
+	padding-bottom:1%;
+}
+
+.contactblock table {
+	text-align:right;
+}

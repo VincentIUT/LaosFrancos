@@ -1,0 +1,89 @@
+.paraimg {
+	width: 100px;
+	height: 100px;
+}
+
+#Titre {
+	padding-top: 3%;
+}
+
+.centertab {
+	text-align: center;
+}
+
+.lali {
+	text-align: justify;
+}
+
+.Main {
+	border-collapse: collapse;
+	width:80%;
+	display: inline-block;
+}
+
+.Main td {
+	/* border: 2px dashed rgba(0, 206, 209, 0.3); */
+	border: 2px dashed rgba(255, 153, 51, 0.3);
+	vertical-align:top;
+	width: 20%;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+.Main td:hover {
+	background-color: rgba(255,200,200, 0.1);
+}
+
+#petit {
+	font-size: 12px;
+}
+
+.redstar {
+	color: red;
+}
+
+#formulaire {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	display: inline-block;
+	text-align:center;
+	border: 6px;
+	/* border-color:rgba(0,200,255, 1); */
+	border-color: rgba(255, 153, 51, 1);
+	border-style: dashed double none;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+#formulaire table {
+	text-align: left;
+}
+
+#formulaire td {
+	padding: 10px;
+}
+
+
+
+.paragraphe {
+	position:relative;
+	border-style:solid;
+	/* border-color:rgba(000,206,209, 1); */
+	border-color: rgba(255, 153, 51, 1);
+	border-top-left-radius:15px;
+	border-width:2px;
+	border-bottom-right-radius:30px
+}
+
+#tarifs td {
+	width: 80px;
+}
+
+#tarifs {
+	display: inline-block;
+	border-collapse: collapse;
+}
+
+#tarifs td:hover {
+	background-color: rgba(200,200,255, 0);
+}
